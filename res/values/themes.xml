@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MY.Sherlock.Fullscreen" parent="Theme.Sherlock">
+        <!-- <item name="android:NoTitleBar">true</item>;
+         <item name="android:windowFullscreen">true</item>; -->
+ </style>
+</resources>

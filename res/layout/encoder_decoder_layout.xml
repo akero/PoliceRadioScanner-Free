@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:orientation="vertical" >
+<TextView
+android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:text="AES Encrypt / Decrypt Demo"
+android:paddingBottom="12dip"/>
+<TextView
+android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:id="@+id/clear_text"
+ android:paddingBottom="12dip"/>
+<TextView
+android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:id="@+id/encrypted_text"
+ android:paddingBottom="12dip"/>
+</LinearLayout>

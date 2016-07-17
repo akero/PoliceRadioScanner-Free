@@ -1,0 +1,80 @@
+
+14 Ambulance in route
+15 Citizens holding suspect
+17F Fugitive attachment
+17M Municipal court attachment
+17T Traffic attachment
+18 Traffic incident
+19 Drunk
+20 Auto accident
+20I Injury accident
+20A Airplane crash
+20F Fatal accident
+21 Complaint
+23 Traffic congestion
+24 Medical emergency
+25 Call dispatcher
+26 Police officer
+27 Attempted crime
+28 Inciting a felony
+29 Death
+30 Homicide
+30C Homicide by cutting
+30S Homicide by shooting
+32 Accessory to a felony
+34 Aggravated battery
+34C Cutting
+34S Shooting
+35 Simple battery
+37 Aggravated assault
+38 Simple assault
+39 Negligent injury
+42 Aggravated rape
+43 Simple rape
+44 Aggravated kidnapping
+45 Simple kidnapping
+51 Aggravated arson
+51B Bomb threat
+52 Simple arson
+52E Explosives
+52F Fire
+54 Combustible materials
+56 Criminal damage
+58 Contaminated water
+59 Criminal Mischief
+60 Aggravated burglary
+62 Alarms
+62B Simple burglary
+62C Auto burglary
+62R Residential burglary
+62S Safe burglary
+63 Criminal Trespass
+63S Sit-in
+64 Armed robbery
+64G Armed robbery/gun
+64K Armed robbery/knife
+65 Simple robbery
+65P Purse snatching
+66 Extortion threats
+67 Offer a bribe to executive officer
+68 Unauthorized use of a movable
+69 Deter/resist executive officer (other than peace officer)
+69 Possession of stolen goods
+71 Issuing worthless checks
+71 Threaten injury to school officer or employee
+72 Forgery
+80 Carnal knowledge of juvenile
+81 Indecent behavior with juvenile
+82 Prostitution
+84 Pandering
+87 Abortion
+89 Crime against nature
+90 Gambling
+90C Gambling, cards
+90D Gambling, dice
+91 Unlawful sale to minor
+93 Cruelty to juvenile
+94 Illegal use of weapon
+95 Illegal carrying of gun
+98 Driving while intoxication (DWI)
+99 Reckless operation

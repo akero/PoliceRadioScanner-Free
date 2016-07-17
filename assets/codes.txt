@@ -1,0 +1,437 @@
+10-Code meanings:
+
+10-0 Caution
+10-1 Unable to copy — change location
+10-2 Signal good
+10-3 Stop transmitting
+10-4 Acknowledgement (OK)
+10-5 Relay
+10-6 Busy — stand by unless urgent
+10-7 Out of service
+10-8 In service
+10-9 Repeat
+10-10 Fight in progress
+10-11 Dog case
+10-12 Stand by (stop)
+10-13 Weather — road report
+10-14 Prowler report
+10-15 Civil disturbance
+10-16 Domestic disturbance
+10-17 Meet complainant
+10-18 Quickly
+10-19 Return to …
+10-20 Location
+10-21 Call … by telephone
+10-22 Disregard
+10-23 Arrived at scene
+10-24 Assignment completed
+10-25 Report in person (meet) …
+10-26 Detaining subject, expedite
+10-27 Drivers license information
+10-28 Vehicle registration information
+10-29 Check for wanted
+10-30 Unnecessary use of radio
+10-31 Crime in progress
+10-32 Man with gun
+10-33 Emergency
+10-34 Riot
+10-35 Major crime alert
+10-36 Correct time
+10-37 (Investigate) suspicious vehicle
+10-38 Stopping suspicious vehicle
+10-39 Urgent — use light, siren
+10-40 Silent run — no light, siren
+10-41 Beginning tour of duty
+10-42 Ending tour of duty
+10-43 Information
+10-44 Permission to leave … for …
+10-45 Animal carcass at …
+10-46 Assist motorist
+10-47 Emergency road repairs at …
+10-48 Traffic standard repair at …
+10-49 Traffic light out at …
+10-50 Accident (fatal, personal injury, property damage)
+10-51 Wrecker needed
+10-52 Ambulance needed
+10-53 Road blocked at …
+10-54 Livestock on highway
+10-55 Suspected DUI
+10-56 Intoxicated pedestrian
+10-57 Hit and run (fatal, personal injury, property damage)
+10-58 Direct traffic
+10-59 Convoy or escort
+10-60 Squad in vicinity
+10-61 Isolate self for message
+10-62 Reply to message
+10-63 Prepare to make written copy
+10-64 Message for local delivery
+10-65 Net message assignment
+10-66 Message cancellation
+10-67 Clear for net message
+10-68 Dispatch information
+10-69 Message received
+10-70 Fire
+10-71 Advise nature of fire
+10-72 Report progress on fire
+10-73 Smoke report
+10-74 Negative
+10-75 In contact with …
+10-76 En route …
+10-77 ETA (estimated time of arrival)
+10-78 Need assistance
+10-79 Notify coroner
+10-80 Chase in progress
+10-81 Breathalyzer
+10-82 Reserve lodging
+10-83 Work school xing at …
+10-84 If meeting … advise ETA
+10-85 Delayed due to …
+10-86 Officer/operator on duty
+10-87 Pick up/distribute checks
+10-88 Present telephone number of …
+10-89 Bomb threat
+10-90 Bank alarm at …
+10-91 Pick up prisoner/subject
+10-92 Improperly parked vehicle
+10-93 Blockade
+10-94 Drag racing
+10-95 Prisoner/subject in custody
+10-96 Mental subject
+10-97 Check (test) signal
+10-98 Prison/jail break
+10-99 Wanted/stolen indicated
+
+11-Code meanings:
+
+11-6 Illegal discharge of firearms
+11-7 Prowler
+11-8 Person down
+11-10 Take a report
+11-12 Dead animal
+11-13 Injured animal
+11-14 Animal bite
+11-15 Ball game in street
+11-17 Wires down
+11-24 Abandoned Vehicle
+11-25 Vehicle – Traffic hazzard
+11-25X Female motorist need assistance
+11-26 Abandoned bicycle
+11-27 Subject has felony record, but is not wanted
+11-28 Rush vehicle registration information
+11-29 Subject has no record
+11-30 Incomplete telephone call
+11-31 Person calling for help
+11-40 Advise station if ambulance is needed
+11-41 Request Ambulance
+11-42 Ambulance not required
+11-43 Doctor required
+11-44 Coroner required
+11-45 Attempted suicide
+11-46 Death report
+11-47 Injured Person
+11-48 Provide Transportation
+11-54 Suspicious vehicle
+11-65 Traffic Signal light out
+11-66 Traffic Signal Out-of-order
+11-70 Fire Alarm
+11-71 Fire Report
+11-79 Traffic Accident – Ambulance dispatched
+11-80 Traffic Accident – Serious Injury
+11-81 Traffic Accident – Minor Injury
+11-82 Traffic Accident – No Injury
+11-83 Traffic Accident – No Details
+11-84 Direct Traffic
+11-85 Dispatched Tow Truck
+11-86 Special Detail
+11-87 Assist Other Unit
+11-95 Out of vehicle, car stop (location/license)
+11-96 Out of vehicle, car stop, send backup(location/license)
+11-98 Meet Officer
+11-99 Officer needs Help/Emergency
+
+14-99 Code meanings:
+
+14 Ambulance in route
+15 Citizens holding suspect
+17F Fugitive attachment
+17M Municipal court attachment
+17T Traffic attachment
+18 Traffic incident
+19 Drunk
+20 Auto accident
+20I Injury accident
+20A Airplane crash
+20F Fatal accident
+21 Complaint
+23 Traffic congestion
+24 Medical emergency
+25 Call dispatcher
+26 Police officer
+27 Attempted crime
+28 Inciting a felony
+29 Death
+30 Homicide
+30C Homicide by cutting
+30S Homicide by shooting
+32 Accessory to a felony
+34 Aggravated battery
+34C Cutting
+34S Shooting
+35 Simple battery
+37 Aggravated assault
+38 Simple assault
+39 Negligent injury
+42 Aggravated rape
+43 Simple rape
+44 Aggravated kidnapping
+45 Simple kidnapping
+51 Aggravated arson
+51B Bomb threat
+52 Simple arson
+52E Explosives
+52F Fire
+54 Combustible materials
+56 Criminal damage
+58 Contaminated water
+59 Criminal Mischief
+60 Aggravated burglary
+62 Alarms
+62B Simple burglary
+62C Auto burglary
+62R Residential burglary
+62S Safe burglary
+63 Criminal Trespass
+63S Sit-in
+64 Armed robbery
+64G Armed robbery/gun
+64K Armed robbery/knife
+65 Simple robbery
+65P Purse snatching
+66 Extortion threats
+67 Offer a bribe to executive officer
+68 Unauthorized use of a movable
+69 Deter/resist executive officer (other than peace officer)
+69 Possession of stolen goods
+71 Issuing worthless checks
+71 Threaten injury to school officer or employee
+72 Forgery
+80 Carnal knowledge of juvenile
+81 Indecent behavior with juvenile
+82 Prostitution
+84 Pandering
+87 Abortion
+89 Crime against nature
+90 Gambling
+90C Gambling, cards
+90D Gambling, dice
+91 Unlawful sale to minor
+93 Cruelty to juvenile
+94 Illegal use of weapon
+95 Illegal carrying of gun
+98 Driving while intoxication (DWI)
+99 Reckless operation
+
+Other Codes' meanings:
+
+100 Hit and run
+102 Take or destroy property in custody of officer
+118 Perjury
+136.1(A) Intimidation of witness or victim
+136.1(B1) Intimidation of witness or victim from reporting crime
+136.1(C1) Intimidation of witness or victim by force/threat of violence
+137(a) Offer bribe to influence testimony
+146a Impersonating a peace officer
+148 Interfering with an officer
+148 Resisting Arrest
+148.1 False report of a bomb
+148.5 False report of a crime
+150 Refuse to aid an officer
+151(A1) Advocate killing/injuring officer
+187 Homicide
+192.1 Voluntary manslaughter
+192.2 Involuntary manslaughter
+192.3 Vehicular manslaughter
+203 Mayhem
+207 Kidnapping
+207A Kidnapping attempt
+209A Kidnapping for ransom/extortion
+209B Kidnapping for robbery
+211 Robbery
+211A Robbery alarm
+211S Robbery alarm, silent
+217 Assault with intent to murder
+220 Assault with intent to mayhem/sex crime
+236 False imprisonment
+240 Assault – Misdemeanor
+241 Assault on peace officer/EMT/firefighter
+242 Battery
+243 Assault on Police Officer
+243A Battery against a citizen
+243B Battery against a peace officer
+244 Throwing acid with intent to disfigure or burn
+245 Assault with a deadly weapon
+245B Assault with a deadly weapon against a peace officer
+246 Shooting at an inhabited dwelling or vehicle
+261 Rape
+261.5 Rape – under 18 years of age
+261A Attempted rape
+262 Rape of spouse
+266H Pimping
+266I Pandering
+270 Child neglect/failing to pay the support payments
+271 Child abandonment – under 14
+272 Contributing to the delinquency of a minor
+273 Assault on Person
+273.5A Corporal injury to spouse/cohabitant
+273A Child neglect
+273D Corporal injury upon child
+273D Wife beating – Felony
+278 Child abduction from parent or guardian
+285 Sex crimes against family member(s)
+288 Lewd Conduct / Felony sex offense
+288 Sex offense against a child
+288A Oral copulation
+290 Sex registration
+311 Loud and Obscene
+311.2A Possession of obscene matter
+311.2B Possessing obscene matter depicting a minor
+314 Indecent exposure
+330 Gambling
+373 Public nuisance misdemeanors (spitting in public places, etc.)
+374B Garbage dumping
+374B Illegal dumping
+390 Drunk
+390C Drunk in Vehicle
+390D Drunk, unconscious
+402B Abandoned refrigerator
+404 Riot
+407 Unlawful Assembly
+415 Disturbing the peace
+415B Investigate the Trouble
+415C Disturbance – Children involved
+415D Disturbance – Drunk involved
+415E Loud Music or Party
+415F Disturbance – Family
+415G Disturbance – Gang
+417 Person with a gun
+417A Person with a knife
+447 Arson
+451 Arson
+459 Burglary
+459A Burglar Alarm, audible
+459S Burglar Alarm, silent
+464 Burglary with Explosives
+470 Forgery
+476A Insufficient funds (checks)
+477A Arson
+480 Hit and Run – Felony
+481 Hit and Run – Misdemeanor
+484 Petty theft
+484E Theft of a credit card
+484fF Forged credit card
+484G Illegal use of a credit card
+484PS Purse Snatch
+487 Grand Theft ($400+)
+487.2 Theft from Person or Purse snatch
+488 Petty theft (<$400)
+496 Receiving stolen property
+499B Joyriding
+502 Drunk Driving
+503 Auto theft
+503 Embezzlement
+504 Tampering with a vehicle
+505 Reckless driving
+507 Public nuisance
+510 Speeding or racing vehicles
+537 Defrauding Innkeeper
+537 Nonpayment of a bill (Restaurants, etc.)
+537E Article with serial number removed
+555 Posted trespass
+586 Illegal parking
+586E Vehicle blocking Driveway
+594 Malicious mischief
+594 Vandalism
+595 Runaway car
+597 Killing or abusing animals
+602 Trespassing
+602.5 Entry without consent
+603 Trespass with damage
+603 Unlawful entry
+604 Throwing missiles
+647 Lewd conduct
+647 Vagrant
+647A Annoy/molest child
+647A Vagrant loitering in Public Place
+647B Prostitution
+647C Begging
+647D Loitering in Restroom
+647E Loitering Place to Place
+647F Drunk in public
+647FF Drunk – enroute to Detox
+647G Disorderly conduct – loitering on private property at night
+647G Prowler
+647H Disorderly conduct – peeking into an inhabited building
+647H Illegal Lodging
+653M Threatening/Obscene phone calls
+901 Vehicle Accident
+901 Ambulance Call
+901A Ambulance Call – Attempted Suicide
+901A Injury Accident
+901B Ambulance Call – Drowning
+901C Ambulance Call – Cutting
+901D Ambulance Call – Drunk
+901G Ambulance Call – Gas
+901H Ambulance Call – Dead Body
+901K Ambulance has been dispatched
+901N Ambulance requested
+901S Ambulance Call – Shooting
+901T Ambulance Call – Traffic Accident
+901Y Request Ambulance if needed
+902 Accident
+902H Enroute to Hospital
+902N Medical Aid needed
+902T Traffic Accident
+903 Aircraft Crash
+904 Fire
+904A Automobile fire.
+904B Building fire.
+904G Grass fire.
+906 Making Arrival
+907 Report Writing (after call)
+908 End of Shift
+909 In Service
+909 Traffic problem; police needed.
+910 Can handle this detail
+912 Vehicle Registration Check
+913 Vehicle want/Warrant check
+922 Intoxicated Subject
+924 En route To Office Or Jail
+925 Location
+925 Suspicious vehicle.
+926 Dead body
+927 Suspicious Circumstances/Vehicle
+928 Narcotics/Under Influence
+932 Turn on _______ mobile relay at _______.
+933 Audible Alarm
+933 Silent Alarm
+933 Turn off mobile relay.
+940 Meet Officer or Complainant
+949 Burning inspection at _______.
+950 Control burn in progress/about to begin/ended.
+951 Need fire investigator.
+952 Report on conditions
+953 Investigate smoke
+953A Investigate gas
+954 Off the air at the scene of the fire
+955 Detail under control
+955 Fire is under control.
+956 Assignment not finished.
+956 Detail incomplete, but available
+957 Delayed response of __ minutes
+95k Illegally carrying knife
+966 Drug Deal
+972 Missing Person
+978 Driver License Check
+980 Restrict calls to emergency only.
+981 Attempt to Locate
+981 Resume normal traffic

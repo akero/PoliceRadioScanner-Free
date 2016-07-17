@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.akero.fuzzradiopro"
+    xmlns:mm="http://millennialmedia.com/android/schema"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentLeft="true"
+    android:gravity="center"
+    android:layout_alignParentTop="true"
+    android:scaleType="fitXY"
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.Black.NoTitleBar" >
+	<ImageView
+        android:id="@+id/imageView10"
+        android:layout_weight="0.0351648351648352"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clickable="false"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/p"
+        android:src="@drawable/bar" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2197802197802198"
+        android:scaleType="fitXY"
+         >
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="false"
+            android:contentDescription="@string/p"
+            android:scaleType="fitXY"
+            android:src="@drawable/playbar" />
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="17dp"
+            android:layout_gravity="center_vertical|left"
+            android:background="@drawable/stop1"
+            android:clickable="true" />
+        <Button
+            android:id="@+id/btn_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_margin="17dp"
+            android:background="@drawable/play"
+            android:clickable="true" />
+		<TextView
+		    android:id="@+id/tv"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:typeface="sans"
+		    android:text="Unable to connect, server could be down, or check your Internet connection."
+		    android:layout_marginLeft="100dp"
+		    android:layout_marginRight="10dp"
+		    android:layout_gravity="center_vertical|left"
+		    android:textSize="19sp" 
+		    />
+    </FrameLayout>
+<FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1333333333333333"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:gravity="center" >
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:contentDescription="@string/p"
+        android:src="@drawable/volbar1" />
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:scaleType="fitXY"
+    android:orientation="vertical"
+    >
+	<SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:progressDrawable="@drawable/progress"
+        android:paddingRight="17dp"
+        android:paddingLeft="17dp"
+        android:gravity="center" 
+        android:indeterminate="false" />
+	</LinearLayout>
+	</FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5384615384615385"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true">
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/p"
+         />
+     <LinearLayout
+         android:id="@+id/timell"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+         <com.example.policeradioscanner.GradientTextView
+            android:id="@+id/time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:typeface="sans"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textSize="52dip" 
+            app:colorEndGradient="@color/textview_end_gradient"
+        	app:colorStartGradient="@color/textview_start_gradient"/>
+        <ImageView
+            android:id="@+id/timefiller"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.3"
+            android:layout_gravity="center_vertical" 
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/layout1"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@android:color/transparent"
+		android:orientation="vertical"
+		android:cacheColorHint="#00000000">
+		 <Button
+    	android:id="@+id/buttonfavs"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:typeface="sans"
+    	android:layout_gravity="center_vertical"
+    	android:background="@android:color/transparent" 
+    	android:scaleType="fitXY"
+    	android:textSize="17sp"
+    	android:textColor="@color/favscolor"
+    	android:clickable="true"
+    	android:text="Add this feed to favourites" /><!--  android:textColor="#CCCCCC" -->
+		<ListView android:id="@+id/listview1"
+		    android:background="@android:color/transparent"
+		    android:cacheColorHint="#00000000"
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+			android:textSize="19sp">
+		</ListView>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/layout11"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@android:color/transparent"
+		android:cacheColorHint="#00000000">
+		<ListView android:id="@+id/listview11"
+		    android:background="@android:color/transparent"
+		    android:cacheColorHint="#00000000"
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+			android:textSize="19sp">
+		</ListView>
+	</LinearLayout>
+	<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="fill_parent">
+	<LinearLayout android:id="@+id/layout111"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    ><!-- android:gravity="center" -->
+	<TextView
+            android:id="@+id/onezero"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=" 10 - Codes "
+            android:typeface="sans"
+            android:layout_weight="1"
+		    android:textSize="14sp"
+            android:clickable="true" />
+	<!-- android:textSize="17sp"android:layout_margin="17dp"android:layout_weight="1" -->
+	<TextView
+            android:id="@+id/oneone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=" 11 - Codes "
+            android:typeface="sans"
+            android:textSize="14sp"
+			android:layout_weight="1"
+            android:clickable="true" /><!-- android:textSize="17sp"android:layout_margin="17dp"android:layout_weight="1" -->
+	<TextView
+            android:id="@+id/onefour"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="  14 - 99   "
+            android:textSize="14sp"
+            android:typeface="sans"
+			android:layout_weight="1"
+            android:clickable="true" /><!-- android:textSize="17sp"android:layout_margin="17dp"android:layout_weight="1" -->
+	<TextView
+            android:id="@+id/other"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Other Codes "
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:typeface="sans"
+            android:clickable="true" /><!-- android:textSize="17sp"android:layout_margin="17dp"android:layout_weight="1" -->
+	</LinearLayout>
+	<ScrollView 
+	    android:id="@+id/scrollview1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:fillViewport="true">
+	<TextView
+		    android:id="@+id/tv1"
+		    android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+		    android:typeface="sans"
+		    android:textSize="17sp" 
+		    />
+		    <!-- android:layout_gravity="center_vertical|left" -->
+	</ScrollView>
+	</LinearLayout>
+	<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="320dp"
+     android:layout_gravity="bottom"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content">
+	<TextView
+            android:id="@+id/ButtonAd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hide Ad"
+            android:textSize="8sp"
+            android:typeface="sans"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"
+            android:clickable="true" /><!-- android:textSize="17sp"android:layout_margin="17dp"android:layout_weight="1" -->
+	<com.millennialmedia.android.MMAdView
+        android:id="@+id/adView"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        
+        android:layout_gravity="bottom"
+        mm:width="320"
+        mm:height="50"
+        mm:apid="127225"
+         />
+	</LinearLayout>
+</FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1318681318681319"
+        android:scaleType="fitXY"
+         >
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:contentDescription="@string/p"
+        android:scaleType="fitXY"
+        android:src="@drawable/base" />
+    <LinearLayout 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitXY">
+    <Button
+    	android:id="@+id/button2"
+    	android:layout_width="wrap_content"
+    	android:layout_height="32dp"
+    	android:layout_weight="1"
+    	android:typeface="sans"
+    	android:layout_margin="4dp"
+    	android:layout_gravity="center_vertical"
+    	android:background="@drawable/fragsel" 
+    	android:scaleType="fitXY"
+    	android:clickable="true"
+    	android:text="Time" /><!--  android:textColor="#CCCCCC" -->
+    <Button
+    	android:id="@+id/button3"
+    	android:layout_width="wrap_content"
+    	android:layout_height="32dp"
+    	android:scaleType="fitXY"
+    	android:layout_weight="1"
+    	android:layout_marginRight="4dp"
+    	android:typeface="sans"
+    	android:layout_gravity="center_vertical"
+    	android:background="@drawable/fragsel" 
+    	android:clickable="true"
+    	android:text="Favs" /><!--  android:textColor="#CCCCCC" -->
+    <Button
+    	android:id="@+id/button5"
+    	android:layout_width="wrap_content"
+    	android:layout_height="32dp"
+    	android:scaleType="fitXY"
+    	android:typeface="sans"
+    	android:layout_gravity="center_vertical"
+    	android:layout_weight="1"
+    	android:layout_marginRight="4dp"
+    	android:background="@drawable/fragsel" 
+    	android:clickable="true"
+    	android:text="Top"/><!--  android:textColor="#CCCCCC" -->
+	<Button
+    	android:id="@+id/button4"
+    	android:layout_width="wrap_content"
+    	android:layout_height="32dp"
+    	android:scaleType="fitXY"
+    	android:typeface="sans"
+    	android:layout_marginRight="4dp"
+    	android:layout_gravity="center_vertical"
+    	android:layout_weight="1"
+    	android:background="@drawable/fragsel" 
+    	android:clickable="true"
+    	android:text="Codes" /><!--  android:textColor="#CCCCCC" -->
+    <ImageButton 
+    	android:id="@+id/button6"
+    	android:layout_width="wrap_content"
+    	android:layout_height="32dp"
+    	android:layout_weight="1"
+    	android:layout_marginRight="4dp"
+    	android:layout_gravity="center_vertical"
+    	android:clickable="true"
+        android:scaleType="fitXY"
+        android:background="@drawable/fragsel" 
+        android:src="@drawable/bmp"></ImageButton>
+    <!-- <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_weight="1"
+        android:typeface="sans"
+        android:background="@drawable/imagebutton"
+        android:layout_marginRight="4dp"
+        android:layout_gravity="center_vertical"
+        android:clickable="true"
+        android:scaleType="fitXY" />
+        -->
+    </LinearLayout>
+</FrameLayout>
+</LinearLayout>

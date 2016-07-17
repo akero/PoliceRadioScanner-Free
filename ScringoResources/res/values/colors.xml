@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="disabled">#666</color>
+    <color name="enabled">#ffffff</color>
+    <color name="selectedCell">#1d1d1d</color>
+</resources>

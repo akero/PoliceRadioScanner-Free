@@ -1,0 +1,203 @@
+
+100 Hit and run
+102 Take or destroy property in custody of officer
+118 Perjury
+136.1(A) Intimidation of witness or victim
+136.1(B1) Intimidation of witness or victim from reporting crime
+136.1(C1) Intimidation of witness or victim by force/threat of violence
+137(a) Offer bribe to influence testimony
+146a Impersonating a peace officer
+148 Interfering with an officer
+148 Resisting Arrest
+148.1 False report of a bomb
+148.5 False report of a crime
+150 Refuse to aid an officer
+151(A1) Advocate killing/injuring officer
+187 Homicide
+192.1 Voluntary manslaughter
+192.2 Involuntary manslaughter
+192.3 Vehicular manslaughter
+203 Mayhem
+207 Kidnapping
+207A Kidnapping attempt
+209A Kidnapping for ransom/extortion
+209B Kidnapping for robbery
+211 Robbery
+211A Robbery alarm
+211S Robbery alarm, silent
+217 Assault with intent to murder
+220 Assault with intent to mayhem/sex crime
+236 False imprisonment
+240 Assault – Misdemeanor
+241 Assault on peace officer/EMT/firefighter
+242 Battery
+243 Assault on Police Officer
+243A Battery against a citizen
+243B Battery against a peace officer
+244 Throwing acid with intent to disfigure or burn
+245 Assault with a deadly weapon
+245B Assault with a deadly weapon against a peace officer
+246 Shooting at an inhabited dwelling or vehicle
+261 Rape
+261.5 Rape – under 18 years of age
+261A Attempted rape
+262 Rape of spouse
+266H Pimping
+266I Pandering
+270 Child neglect/failing to pay the support payments
+271 Child abandonment – under 14
+272 Contributing to the delinquency of a minor
+273 Assault on Person
+273.5A Corporal injury to spouse/cohabitant
+273A Child neglect
+273D Corporal injury upon child
+273D Wife beating – Felony
+278 Child abduction from parent or guardian
+285 Sex crimes against family member(s)
+288 Lewd Conduct / Felony sex offense
+288 Sex offense against a child
+288A Oral copulation
+290 Sex registration
+311 Loud and Obscene
+311.2A Possession of obscene matter
+311.2B Possessing obscene matter depicting a minor
+314 Indecent exposure
+330 Gambling
+373 Public nuisance misdemeanors (spitting in public places, etc.)
+374B Garbage dumping
+374B Illegal dumping
+390 Drunk
+390C Drunk in Vehicle
+390D Drunk, unconscious
+402B Abandoned refrigerator
+404 Riot
+407 Unlawful Assembly
+415 Disturbing the peace
+415B Investigate the Trouble
+415C Disturbance – Children involved
+415D Disturbance – Drunk involved
+415E Loud Music or Party
+415F Disturbance – Family
+415G Disturbance – Gang
+417 Person with a gun
+417A Person with a knife
+447 Arson
+451 Arson
+459 Burglary
+459A Burglar Alarm, audible
+459S Burglar Alarm, silent
+464 Burglary with Explosives
+470 Forgery
+476A Insufficient funds (checks)
+477A Arson
+480 Hit and Run – Felony
+481 Hit and Run – Misdemeanor
+484 Petty theft
+484E Theft of a credit card
+484fF Forged credit card
+484G Illegal use of a credit card
+484PS Purse Snatch
+487 Grand Theft ($400+)
+487.2 Theft from Person or Purse snatch
+488 Petty theft (<$400)
+496 Receiving stolen property
+499B Joyriding
+502 Drunk Driving
+503 Auto theft
+503 Embezzlement
+504 Tampering with a vehicle
+505 Reckless driving
+507 Public nuisance
+510 Speeding or racing vehicles
+537 Defrauding Innkeeper
+537 Nonpayment of a bill (Restaurants, etc.)
+537E Article with serial number removed
+555 Posted trespass
+586 Illegal parking
+586E Vehicle blocking Driveway
+594 Malicious mischief
+594 Vandalism
+595 Runaway car
+597 Killing or abusing animals
+602 Trespassing
+602.5 Entry without consent
+603 Trespass with damage
+603 Unlawful entry
+604 Throwing missiles
+647 Lewd conduct
+647 Vagrant
+647A Annoy/molest child
+647A Vagrant loitering in Public Place
+647B Prostitution
+647C Begging
+647D Loitering in Restroom
+647E Loitering Place to Place
+647F Drunk in public
+647FF Drunk – enroute to Detox
+647G Disorderly conduct – loitering on private property at night
+647G Prowler
+647H Disorderly conduct – peeking into an inhabited building
+647H Illegal Lodging
+653M Threatening/Obscene phone calls
+901 Vehicle Accident
+901 Ambulance Call
+901A Ambulance Call – Attempted Suicide
+901A Injury Accident
+901B Ambulance Call – Drowning
+901C Ambulance Call – Cutting
+901D Ambulance Call – Drunk
+901G Ambulance Call – Gas
+901H Ambulance Call – Dead Body
+901K Ambulance has been dispatched
+901N Ambulance requested
+901S Ambulance Call – Shooting
+901T Ambulance Call – Traffic Accident
+901Y Request Ambulance if needed
+902 Accident
+902H Enroute to Hospital
+902N Medical Aid needed
+902T Traffic Accident
+903 Aircraft Crash
+904 Fire
+904A Automobile fire.
+904B Building fire.
+904G Grass fire.
+906 Making Arrival
+907 Report Writing (after call)
+908 End of Shift
+909 In Service
+909 Traffic problem; police needed.
+910 Can handle this detail
+912 Vehicle Registration Check
+913 Vehicle want/Warrant check
+922 Intoxicated Subject
+924 En route To Office Or Jail
+925 Location
+925 Suspicious vehicle.
+926 Dead body
+927 Suspicious Circumstances/Vehicle
+928 Narcotics/Under Influence
+932 Turn on _______ mobile relay at _______.
+933 Audible Alarm
+933 Silent Alarm
+933 Turn off mobile relay.
+940 Meet Officer or Complainant
+949 Burning inspection at _______.
+950 Control burn in progress/about to begin/ended.
+951 Need fire investigator.
+952 Report on conditions
+953 Investigate smoke
+953A Investigate gas
+954 Off the air at the scene of the fire
+955 Detail under control
+955 Fire is under control.
+956 Assignment not finished.
+956 Detail incomplete, but available
+957 Delayed response of __ minutes
+95k Illegally carrying knife
+966 Drug Deal
+972 Missing Person
+978 Driver License Check
+980 Restrict calls to emergency only.
+981 Attempt to Locate
+981 Resume normal traffic

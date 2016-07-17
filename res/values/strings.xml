@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fuzz Radio Pro</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="button_next">Click for next page</string>
+    <string name="button_next2">Upload txt file to parse</string>
+    <string name="button_next3">Click for next page 3</string>
+    <string name="button_list">Click for list</string>
+    <string name="title_activity_display_main">MyMessage</string>
+    <string name="title_activity_list_view_loader">ListViewLoader</string>
+    <string name="title_activity_display_next_page">DisplayNextPage</string>
+    <string name="title_activity_next_page">NextPage</string>
+    <string name="title_activity_list_view">ListViewA</string>
+    <string name="title_activity_next_page2">ListViewA</string>
+    <string name="title_activity_next_page3">ListViewA</string>
+    <string name="title_activity_encdec">testinternalstoragewrite</string>
+    <string name="title_activity_webview">Webview</string>
+    <string name="title_activity_main_activity_ap">MainActivityap</string>
+    <string name="title_activity_adfe">Add Feed</string>
+	<string name="station_picker_prompt">Pick a station man</string>
+	<string name="play">play</string>
+	<string name="hello">hello</string>
+	<string name="stop">stop</string>
+	<string name="close">Close</string>
+	<string name="p">whocares</string>
+	<string name="ten">10 - Codes</string>
+</resources>

@@ -1,0 +1,20 @@
+1>United States
+16>Australia
+44>Chile
+2>Canada
+55>Germany
+223>United Kingdom
+99>Ireland
+41>Switzerland
+159>Netherlands
+229>Venezuela
+106>Italy
+66>Spain
+192>Slovenia
+24>Bulgaria
+13>Argentina
+6>Antigua and Barbuda
+54>Czech Republic
+73>France
+57>Denmark
+160>Norway

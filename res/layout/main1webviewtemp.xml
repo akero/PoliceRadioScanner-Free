@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_horizontal" android:layout_marginTop="5dp">
+<Button android:text="play" android:id="@+id/btn_play" android:layout_width="90dp" android:layout_height="wrap_content"></Button>
+<Button android:text="pause" android:id="@+id/btn_pause" android:layout_width="90dp" android:layout_height="wrap_content"></Button>
+<Button android:text="stop" android:id="@+id/btn_stop" android:layout_width="90dp" android:layout_height="wrap_content"></Button>
+</LinearLayout>
+<SeekBar android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_margin="3dp" android:id="@+id/seekBar"></SeekBar>
+</LinearLayout>

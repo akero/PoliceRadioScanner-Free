@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.akero.fuzzradiopro"
+    android:versionCode="6"
+    android:versionName="6.0" >
+<supports-screens android:resizeable="true"
+                  android:smallScreens="true" 
+                  android:normalScreens="true"
+                  android:largeScreens="true"
+                  android:xlargeScreens="true"
+                  android:anyDensity="true"/>
+<compatible-screens>
+    <!-- all small size screens -->
+    <screen android:screenSize="small" android:screenDensity="ldpi" />
+    <screen android:screenSize="small" android:screenDensity="mdpi" />
+    <screen android:screenSize="small" android:screenDensity="hdpi" />
+    <screen android:screenSize="small" android:screenDensity="xhdpi" />
+    <screen android:screenSize="small" android:screenDensity="480" />
+    <!-- all normal size screens -->
+    <screen android:screenSize="normal" android:screenDensity="ldpi" />
+    <screen android:screenSize="normal" android:screenDensity="mdpi" />
+    <screen android:screenSize="normal" android:screenDensity="hdpi" />
+    <screen android:screenSize="normal" android:screenDensity="xhdpi" />
+    <screen android:screenSize="normal" android:screenDensity="480" />
+    <!-- all normal size screens -->
+    <screen android:screenSize="large" android:screenDensity="ldpi" />
+    <screen android:screenSize="large" android:screenDensity="mdpi" />
+    <screen android:screenSize="large" android:screenDensity="hdpi" />
+    <screen android:screenSize="large" android:screenDensity="xhdpi" />
+    <screen android:screenSize="large" android:screenDensity="480" />
+    </compatible-screens>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+<uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon_final"
+        android:label="@string/app_name" 
+        android:theme="@style/Theme.Sherlock">
+        <!-- android:theme="@style/AppTheme" -->
+        <!--  -->
+                <activity android:name="com.millennialmedia.android.MMActivity"
+  android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+  android:configChanges="keyboardHidden|orientation|keyboard" ></activity>
+
+           <activity android:name="com.scringo.features.radar.ScringoRadarActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.feed.ScringoFeedActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.profile.ScringoProfileActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.profile.ScringoFollowersActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.inbox.ScringoInboxActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.inbox.ScringoChatActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.invite.ScringoInviteActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.twitter.ScringoTwitterActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.invite.ScringoFindFriendsActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.feedback.ScringoFeedbackActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.inbox.ScringoSendToActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.profile.ScringoProfileBridge" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.profile.ScringoProfileEditBio" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.feedback.ScringoFeedbackRootActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.inbox.ScringoSystemMessageActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.invite.ScringoFindFriendsRootActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.invite.ScringoSuggestionsActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.apps.ScringoAppDiscoveryActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.chatroom.ScringoChatroomActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.chatroom.ScringoTopicActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.profile.ScringoSignUpRootActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.profile.ScringoSignUpActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.profile.ScringoLoginRootActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.profile.ScringoLoginActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.profile.ScringoSignUpSettingsActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.profile.ScringoForgotPasswordActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name="com.scringo.features.profile.ScringoChangePasswordActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+
+        <service android:name="com.scringo.service.ScringoService" />
+
+
+        <activity android:name="com.millennialmedia.android.VideoPlayer"
+android:configChanges="keyboardHidden|orientation|keyboard" >
+</activity>
+        <!--  -->
+        
+        <activity
+            android:name="com.example.policeradioscanner.DisplayMainActivity"
+            android:label="@string/title_activity_display_main"
+             android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.policeradioscanner.RetreiveFeedTask"
+            android:label="@string/title_activity_display_main"
+             android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.policeradioscanner.ListViewLoader"
+            android:label="@string/title_activity_list_view_loader" 
+             android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.policeradioscanner.MainActivityap"
+            android:label="@string/title_activity_main_activity_ap" 
+             android:screenOrientation="portrait">
+            </activity> 
+        <activity
+            android:name="com.example.policeradioscanner.DisplayNextPage"
+            android:label="@string/title_activity_display_next_page" 
+             android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.policeradioscanner.NextPage"
+            android:label="@string/title_activity_next_page" 
+             android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.policeradioscanner.ListViewA"
+             android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.policeradioscanner.NextPage2"
+            android:label="@string/title_activity_next_page2" 
+             android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.policeradioscanner.NextPage3"
+            android:label="@string/title_activity_next_page3"
+             android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.policeradioscanner.testinternalstoragewrite"
+            android:label="@string/title_activity_encdec" 
+             android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.policeradioscanner.addfeed"
+            android:label="Add Feed" 
+             android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.policeradioscanner.UploadToParse"
+            android:label="Upload to Parse" 
+             android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.policeradioscanner.update"
+            android:label="Check For New Feeds"
+ 			android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.policeradioscanner.Webview"
+            android:launchMode="singleTask"
+            android:label="@string/title_activity_encdec" 
+             android:screenOrientation="portrait"
+            >
+        </activity>
+        <!-- android:theme="@android:style/Theme.Sherlock.Black.NoTitleBar"> -->
+        <service 
+            android:enabled="true"
+            android:name="com.example.policeradioscanner.mp3playerservice" >
+        </service>
+        
+    </application>
+    </manifest>

@@ -1,0 +1,46 @@
+
+11-6 Illegal discharge of firearms
+11-7 Prowler
+11-8 Person down
+11-10 Take a report
+11-12 Dead animal
+11-13 Injured animal
+11-14 Animal bite
+11-15 Ball game in street
+11-17 Wires down
+11-24 Abandoned Vehicle
+11-25 Vehicle – Traffic hazzard
+11-25X Female motorist need assistance
+11-26 Abandoned bicycle
+11-27 Subject has felony record, but is not wanted
+11-28 Rush vehicle registration information
+11-29 Subject has no record
+11-30 Incomplete telephone call
+11-31 Person calling for help
+11-40 Advise station if ambulance is needed
+11-41 Request Ambulance
+11-42 Ambulance not required
+11-43 Doctor required
+11-44 Coroner required
+11-45 Attempted suicide
+11-46 Death report
+11-47 Injured Person
+11-48 Provide Transportation
+11-54 Suspicious vehicle
+11-65 Traffic Signal light out
+11-66 Traffic Signal Out-of-order
+11-70 Fire Alarm
+11-71 Fire Report
+11-79 Traffic Accident – Ambulance dispatched
+11-80 Traffic Accident – Serious Injury
+11-81 Traffic Accident – Minor Injury
+11-82 Traffic Accident – No Injury
+11-83 Traffic Accident – No Details
+11-84 Direct Traffic
+11-85 Dispatched Tow Truck
+11-86 Special Detail
+11-87 Assist Other Unit
+11-95 Out of vehicle, car stop (location/license)
+11-96 Out of vehicle, car stop, send backup(location/license)
+11-98 Meet Officer
+11-99 Officer needs Help/Emergency
